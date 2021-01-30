@@ -2,9 +2,13 @@
     // Author Putay Ganteng
 
     // Syntax Connect Mysli
-    $username = "root";
-    $password = "";
-    $database = "db_cvonline";
+    // $username = "root";
+    // $password = "";
+    // $database = "db_cvonline";
+    // $hostname = "localhost";
+    $username = "u3286503_yusufcv ";
+    $password = "lenovo12345";
+    $database = "u3286503_db_cvonline";
     $hostname = "localhost";
     $con = mysqli_connect($hostname,$username,$password,$database) or die("Connection Corrupt");
 
