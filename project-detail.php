@@ -22,7 +22,7 @@
 <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-<title>Robert - One page HTML Template</title> 
+<title>Yusuf Putra - CV Online</title> 
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
