@@ -154,8 +154,8 @@
       <div class="container">
         <p class="project-detail-text text-center"><?php echo $project['desk_project']  ?>. <a href="https://example.domain/denima6vsco" target="_blank" class="underline">https://example.domain/denima6vsco</a>
         </p>
-        <img alt="" class="image-holder wow fadeInLeft" src="assetscv/images/bg/<?php echo $project['image2']  ?>">
-        <img alt="" class="image-holder wow fadeInRight" src="assetscv/images/bg/<?php echo $project['image3']  ?>">
+        <img alt="" class="image-holder wow fadeInLeft" src="assetscv/images/project/<?php echo $project['image2']  ?>">
+        <img alt="" class="image-holder wow fadeInRight" src="assetscv/images/project/<?php echo $project['image3']  ?>">
         <p class="project-detail-text text-center"><?php echo $project['desk2_project']  ?>
         </p>
        </div>
