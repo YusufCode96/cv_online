@@ -47,25 +47,24 @@
       <span class="close-menu icon-cross2 right-boxed"></span>
       <ul class="menu-list right-boxed">
         <li  data-menuanchor="page1">
-          <a  href="index.php">Home</a>
+          <a  href="#page1">Home</a>
         </li>
         <li  data-menuanchor="page2">
-          <a href="#page2">Specialization</a>
+          <a href="#page2">Spesialisasi</a>
         </li>
+        
         <li  data-menuanchor="page3">
-          <a href="#page3">Resume</a>
+          <a href="#page3">Pengalaman</a>
         </li>
         <li  data-menuanchor="page4">
-          <a href="#page4">About</a>
+          <a href="#page4">Projek</a>
         </li>
+       
         <li  data-menuanchor="page5">
-          <a href="#page5">Projects</a>
+          <a href="#page5">Pengalaman Kerja</a>
         </li>
-        <li  data-menuanchor="page7">
-          <a href="#page7">Testimonials</a>
-        </li>
-        <li  data-menuanchor="page8">
-          <a href="#page8">Contact</a>
+        <li  data-menuanchor="page6">
+          <a href="#page6">Alat & Skill</a>
         </li>
       </ul>
       <div class="menu-footer right-boxed">

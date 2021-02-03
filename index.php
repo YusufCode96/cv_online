@@ -53,21 +53,21 @@
           <a  href="#page1">Home</a>
         </li>
         <li  data-menuanchor="page2">
-          <a href="#page2">Specialization</a>
+          <a href="#page2">Spesialisasi</a>
         </li>
         
         <li  data-menuanchor="page3">
-          <a href="#page3">Experience</a>
+          <a href="#page3">Pengalaman</a>
         </li>
         <li  data-menuanchor="page4">
-          <a href="#page4">Projects</a>
+          <a href="#page4">Projek</a>
         </li>
        
         <li  data-menuanchor="page5">
-          <a href="#page5">Experience Working</a>
+          <a href="#page5">Pengalaman Kerja</a>
         </li>
         <li  data-menuanchor="page6">
-          <a href="#page6">Tools & Skill</a>
+          <a href="#page6">Alat & Skill</a>
         </li>
       </ul>
       <div class="menu-footer right-boxed">
@@ -134,7 +134,7 @@
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-8 col-lg-6">
-                          <h3 class="text-white  wow fadeIn" data-wow-delay="0.1s"><span class="text-primary">Hello</span> I am <?php echo $about['nama']; ?></h3>
+                          <h3 class="text-white  wow fadeIn" data-wow-delay="0.1s"><span class="text-primary">Halo</span> Saya <?php echo $about['nama']; ?></h3>
                           <h1 class="display-2 text-white  wow fadeIn" data-wow-delay="0.1s"><span class="">Frontend Developer & <span class="text-primary">UIUX</span></h1>
                           
                             <div class="col-sm-12"  style="padding-top:15px;padding-left:5px"><button type="submit" class="btn"><span style="font-size:16px" class="icon ion-ios-download-outline"></span> Download CV</button></div>
@@ -159,7 +159,7 @@
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
-                      <h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> specialization</h2>
+                      <h2 class="title mb-5 pb-5"> <span class="text-primary"></span> Spesialisasi</h2>
                       <div class="row-specialization row">
 
                       <?php 
@@ -204,12 +204,12 @@
                           <div class="experience-box">
                             <div class="experience-content">
                               <div class="experience-number"><?php echo $about['tahun_exper'];  ?></div>
-                              <div class="experience-info"><div>Years<br>Experience<br>Working</div></div>
+                              <div class="experience-info"><div>Pengalaman </div>di Tempat Kerja </div>
                             </div>
                           </div>
                         </div>
                         <div class="col-lg-5 mt-5 mt-xl-0">
-                          <h2 class="title"> <span class="text-primary">Percent</span> Of Skill</h2>
+                          <h2 class="title"> <span class="text-primary">Diagram</span> Skill</h2>
                         
                           <div class="progress-bars">
                             <?php 
@@ -293,7 +293,7 @@
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
-                       <h2 class="title text-white"><span class="text-primary">Experience </span>Working Place</h2>
+                       <h2 class="title text-white"><span class="text-primary">Pengalaman </span>Bekerja</h2>
                       <div class="row row-partners">
                       <?php 
                                   $perusahaan = $myFunction->selectWhereAll("tb_work",'about_id',$whereValueslogin);
@@ -324,7 +324,7 @@
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
-                       <h2 class="title text-white"><span class="text-primary">Tools</span> & Skill</h2>
+                       <h2 class="title text-white"><span class="text-primary">Alat</span> & Skill</h2>
                       <div class="row row-partners">
                         <?php 
                                   $tools = $myFunction->selectWhereAll("tb_tools",'about_id',$whereValueslogin);
