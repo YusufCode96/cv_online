@@ -204,7 +204,7 @@
                           <div class="experience-box">
                             <div class="experience-content">
                               <div class="experience-number"><?php echo $about['tahun_exper'];  ?></div>
-                              <div class="experience-info"><div>Pengalaman </div>di Tempat Kerja </div>
+                              <div class="experience-info"><div>Tahun<br>Pengalaman<br>Kerja</div></div>
                             </div>
                           </div>
                         </div>
