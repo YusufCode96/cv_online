@@ -150,7 +150,7 @@
           </div>
         </div>
       </div>
-      <img alt="" class="image-holder wow fadeIn" src="assetscv/images/bg/<?php echo $project['image1']  ?>">
+      <img alt="" class="image-holder wow fadeIn" src="assetscv/images/project/<?php echo $project['image1']  ?>">
       <div class="container">
         <p class="project-detail-text text-center"><?php echo $project['desk_project']  ?>. <a href="https://example.domain/denima6vsco" target="_blank" class="underline">https://example.domain/denima6vsco</a>
         </p>
